@@ -1,0 +1,99 @@
+/* PC */
+@media (min-width: 1024px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+    
+    .tour-location__list {
+
+    }
+    
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #header {
+        display: block;
+        overflow: hidden;
+    }
+    .navbar {
+        display: block;
+    }
+
+    .navbar-item:first-child {
+        display: inline-block;
+    }
+    .navbar-item-link {
+        display: block;
+    }
+
+    .search-btn {
+           display: none;
+    }
+
+    .navbar .sub-nav {
+        position: initial; /* trả về giá trị mặc định */
+    }
+
+    .sub-nav__item-link {
+        background-color: #000;
+        color: #fff;
+        padding: 0 38px;
+    }
+
+    .intro__list {
+        display: block;
+        margin: -40px 0;
+    }
+
+    .intro__item--mobile {
+        padding: 0;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .intro__item-img {
+        width: 60%;
+    }
+
+    .tour-location__list {
+        display: block;
+        /* margin-top: 10px; */
+    }
+
+    .tour-location__item {
+        display: block;
+        width: 100%;
+        /* margin-top: 16px; */
+        padding-bottom: 4px;
+    }
+
+    .tour__btn {
+        /* display: block; */
+    }
+
+    .contact-info__icon,
+    .contact-info__content {
+        line-height: 3rem;
+    }
+
+    .content__body-contact {
+        display: block;
+    }
+
+    .contact-input {
+        width: 100%;
+    }
+
+    .btn--contact {
+        width: 100%;
+    }
+}

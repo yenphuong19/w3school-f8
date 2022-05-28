@@ -109,7 +109,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background-image: url("/assets/img/chicago.jpeg");
+    background-image: url("../img/chicago.jpeg");
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
